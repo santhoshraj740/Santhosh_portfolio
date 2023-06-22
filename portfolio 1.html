@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <h1 class="particle-heading">PORTFOLIO</h1>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!----------home----------->
+      <section class="first-section">
+        <div class="rightsection">
+          <img src="Programmer-PNG-HD-Isolated.png" alt="" />
+        </div>
+        <div class="leftsection">
+          Hello!
+          <div class="leftpara1">
+            I am <span class="purple">Santhosh Raj.S</span>
+          </div>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+      </section>
+      <!--<hr>-->
+      <!----------about------------>
+      <section>
+        <div class="about">
+          <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <h1 class="heading1">About me</h1>
+                <p>
+                  Hello, I'm Santhosh Raj.S, graduate in BSc.(H) Neurosciences
+                  and a passionate individual with a diverse range of interest
+                  in web development and neuroscience. With deep curiosity for
+                  both the digital realm and the inner workings of the human
+                  mind, I find immense joy in exploring the interaction between
+                  technology and neuroscience. As a web development enthusiast,
+                  I thrive on designing and creating engaging online experience
+                  that not only captivate users but also leverage the latest
+                  advancements in the tech industry to enhance usability and
+                  user experience.
+                </p>
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">
+                    Skills
+                  </p>
+                  <p class="tab-links" onclick="opentab('education')">
+                    Education
+                  </p>
+                  <p class="tab-links" onclick="opentab('experience')">
+                    Experience
+                  </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>HTML</span><br /></li>
+                    <li><span>CSS</span><br /></li>
+                    <li><span>JAVA Script</span><br /></li>
+                    <li><span>GIT</span><br /></li>
+                    <li><span>JIRA workflow</span><br /></li>
+                    <li>
+                      <span>Datascience and Data visualisation</span><br />
+                    </li>
+                    <li>
+                      <span>Electroencephalogram recording and analysis </span
+                      ><br />
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                  <ul>
+                    <li>
+                      <span>2008 - 2020</span><br />D.A.V Public School,<br />Velachery,Chennai.
+                    </li>
+                    <li>
+                      <span>2020 - 2023</span><br />Amity univeristy,Noida<br />BSc.(H)Neurosciences
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <ul>
+                    <li>
+                      <span>Gleneagles Global Hospital</span><br />Neurotechian
+                      | EEG and NCS Datamanagement and analysis
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="about-col-2">
+                <img src="about .png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------------->
+      <section id="services">
+        <div class="container">
+          <h1 class="heading1 service">My services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code "></i>
+              <h2>Web designing</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita obcaecati rem nostrum deleniti corrupti perferendis saepe, harum exercitationem! Ea repellendus consequatur atque exercitationem corrupti, nihil quidem explicabo deseru</p>
+            </div>
+            <div>
+              <i class="fa-sharp fa-solid fa-database "></i>
+              <h2>Datamanagement and datavisualization</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis fuga saepe, temporibus, eveniet porro eius distinctio adipisci ratione asperiores repellendus nostrum nisi maxime eaque dolore consequatur! Eum quisquam tempora alias.</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-brain"></i>
+              <h2>Neurotechnician</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, voluptas. Voluptates sapiente odit blanditiis velit corporis et dolorem doloremque adipisci? Enim libero corporis reprehenderit perferendis. Exercitationem cum nihil </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/d2fe8112b2.js" crossorigin="anonymous"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "choreographer",
+          "Neurotechian",
+          "Datascientist",
+          "Web developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
