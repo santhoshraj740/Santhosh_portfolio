@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+        font-size: large;
+        position: relative;
+        height: 7.5rem;
+    } 
+    h1.particle-heading{
+        margin-top: 20px;
+        margin-bottom: -11px;
+    }
+    nav ul li{
+        padding: 2%;
+        margin: auto;
+        height: 30px;
+        width: fit-content;
+    }
+    .first-section{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        margin: 0px;
+        padding: 0;
+    }
+    .leftsection{
+        font-size: 2.2rem;
+        margin-top: 11px;
+    }
+    .rightsection img{
+        height: 18rem;
+        width: 24rem;
+        margin-top: 5px;
+        margin-bottom: -25px;
+    }
+    #about{
+        padding: 0px 0;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .about-col-1{
+        top: 10;
+        margin: 0 20px;
+        font-size: 17px;
+    }
+    .heading1{
+        text-align: center;
+        margin-top: 17px;
+        margin-bottom: 20px;
+        font-size: 60px;
+        font-weight: 400;
+        color: rgb(0, 185, 185);
+    }
+    .about-col-2{
+        flex-basis: 0%;
+    }
+    .about-col-2 img{
+        position: static;
+        width: 300;
+        height: 700px;
+        margin-left: 20%;
+    }.tab-contents ul li{
+        margin: 10px 20px;
+    
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading1.contact{
+        margin: 15px 5%;
+    }
+    .contact-left {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+    .contact-right form{
+        width: 80%;
+        margin: 0px 40px;
+    }
+    .submit{
+        margin-top: 3px;
+        margin-right: 115px;
+    }
+
+}
